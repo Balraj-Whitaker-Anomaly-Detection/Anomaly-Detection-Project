@@ -105,7 +105,7 @@ def get_n_prep_curr_logs():
     curr_logs['days_after_grad'] = curr_logs.date-curr_logs.end_date
     
     # drop columns
-    cols_to_drop = ['Unnamed: 0', 'Unnamed: 0.1', 'date', 'time']
+    cols_to_drop = ['Unnamed: 0', 'date', 'time']
     curr_logs = curr_logs.drop(columns=cols_to_drop)
     
     # drop null for path column
