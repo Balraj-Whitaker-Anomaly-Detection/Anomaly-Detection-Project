@@ -1,12 +1,17 @@
 # Team Anomaly Detection Project
+
 ## About Project:
+
 ### Description:
+
 In this project a teammate and I will be answering questions presented in an email from our boss concerning codeup curriculum traffic.
 
 ### Project Goal:
+
 The goal of this project is to answer the questions in the email and return a email with the answers, the requested slide, and the link to this github repo.
 
 ### Email from Boss:
+
 Hello,
 
 I have some questions for you that I need to be answered before the Board meeting on Monday evening. I need to be able to speak to the following questions. I also need a single slide that I can incorporate into my existing presentation (Google Slides) that summarizes the most important points. My questions are listed below; however, if you discover anything else important that I didn’t think to ask, please include that as well.
@@ -51,18 +56,22 @@ A list of the variables in the dataframe and their meaning.
 |is _active|1 = yes, 2 = no|
 
 ## Plan 
+
 Joann will answer 1,2,3,7
+
 Chloe will answer 4,5,6,8
 
 After answering questions, create slide and email response. 
 
 ## Deliverables 
+
 - Email response
 - Slide for board meeting
 - GitHub repo
 - README.md
 
 ## Conclusion (Email Replies):
+
 1. Which lesson appears to attract the most traffic consistently across cohorts (per program)?
 The Javascript -i lesson appears to attract the most traffic across all cohorts.
 
@@ -70,13 +79,14 @@ The Javascript -i lesson appears to attract the most traffic across all cohorts.
 Bayes had the most frequent access to the curriculum of all data science cohorts. It looks like SQL an classification modules are the most popular among all data science cohorts. The Classification module in the curriculum was accessed significantly more by Darden than any other cohort.
 
 3. Are there students who, when active, hardly access the curriculum? If so, what information do you have about these students?
-User ID 278 only accessed the curriculum 3 times while active in the program and was in the Voyageurs cohort for Java between 5-29-2018 and 10-11-2018
-User ID 832 only accessed the curriculum 2 times while active in the program and was in the Jupiter cohort for Java between 9/21/2020 and 3/30/2021
-User ID 679 only accessed the curriculum 1 time while active in the program and was in the Darden cohort for Data Science between 7/13/2020 - 1/12/2021
-Is there any suspicious activity, such as users/machines/etc accessing the curriculum who shouldn’t be? Does it appear that any web-scraping is happening? Are there any suspicious IP addresses?
+- User ID 278 only accessed the curriculum 3 times while active in the program and was in the Voyageurs cohort for Java between 5-29-2018 and 10-11-2018
+- User ID 832 only accessed the curriculum 2 times while active in the program and was in the Jupiter cohort for Java between 9/21/2020 and 3/30/2021
+- User ID 679 only accessed the curriculum 1 time while active in the program and was in the Darden cohort for Data Science between 7/13/2020 - 1/12/2021
+
+4. Is there any suspicious activity, such as users/machines/etc accessing the curriculum who shouldn’t be? Does it appear that any web-scraping is happening? Are there any suspicious IP addresses?
 I did find suspicious activity. I looked at which IPs looked at the most lessons in a day, and I saw that on 2019-03-03 user 341 (using IP address 204.44.112.76), looked at 156 pages in 6 seconds. This person is from the Zion Web Dev cohort. Each page appears to have been accessed only once on that day. This activity is indicative of web scraping. This user appears to have only done this once, and currently interacts with the curriculum in a normal manor.
 
-4. Another suspicious user is user_id 88 from the Glacier cohort. They have the most activity of all users and are not a staff member. Their activity seems to be persistant since their cohort in 2015, with significant spikes in activity every few months. There is more than one IP associated with this user.
+Another suspicious user is user_id 88 from the Glacier cohort. They have the most activity of all users and are not a staff member. Their activity seems to be persistant since their cohort in 2015, with significant spikes in activity every few months. There is more than one IP associated with this user.
 
 Other user ids with significant amounts of activity are: 146, 80, 18, and 291. Some or all of these may be staff, so more exploration is needed to determine if these users are suspicious or not.
 
@@ -97,19 +107,19 @@ Summary: The ability for students and alumni to access both curriculums (web dev
 
 Top 5 Lessons Accessed by Web Dev Alumni:
 
-javascript-i
-spring
-html-css
-java-iii
-java-ii
+- javascript-i
+- spring
+- html-css
+- java-iii
+- java-ii
 
 Top 5 Lessons Accessed by Data Science Alumni:
 
-sql/mysql-overview
-classification/overview
-anomaly-detection/overview
-fundamentals/intro-to-data-science
-1-fundamentals/1.1-intro-to-science
+- sql/mysql-overview
+- classification/overview
+- anomaly-detection/overview
+- fundamentals/intro-to-data-science
+- 1-fundamentals/1.1-intro-to-science
 
 7. Which lessons are least accessed?
 Several pages are only accessed once. It's difficult to tell if its an actual lesson, or a page that was not intended for student use.
